@@ -1,8 +1,10 @@
 # JCO_Learning: Joint Categorical and Ordinal Learning for Cancer Grading in Pathology Images
-
-A multi-task deep learning model for pathology image grading conducts categorical classification, and auxiliary ordinal classification for Cancer Grading in Pathology Images uses a L_CEO loss for the auxiliary ordinal task.
-
+## About
+A multi-task deep learning model for pathology image grading conducts categorical classification, 
+and auxiliary ordinal classification for Cancer Grading in Pathology Images uses a L_CEO loss for the auxiliary ordinal task.<br />
 [Link](https://www.sciencedirect.com/science/article/pii/S1361841521002516) to Medical Image Analysis paper. <br />
+
+![](docs/JCOL.jpg)
 
 All the models in this project were evaluated on the following datasets:
 
@@ -10,11 +12,6 @@ All the models in this project were evaluated on the following datasets:
 - [Colon_KSH]() (Colon WSI from Kangbuk Samsung Hospital - Available soon)
 - [Prostate_UHU](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OCYCMP) (Prostate TMA from University Hospital Zurich - Harvard dataverse)
 - [Prostate_UBC](https://gleason2019.grand-challenge.org/) (Prostate TMA from UBC - MICCAI 2019)
-
-Links to the checkpoints can be found in the inference description below.
-
-![](docs/JCOL.jpg)
-
 
 ## Set Up Environment
 
