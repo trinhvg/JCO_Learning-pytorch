@@ -51,7 +51,7 @@ Below are the main executable scripts in the repository:
  
 Usage: <br />
 ```
-  python train_val.py [--gpu=<id>] [--run_info=<task_name + loss function>] [--dataset=<colon or prostate>]
+  python train_val.py [--gpu=<id>] [--run_info=<task_name + loss function>] [--dataset=<colon/prostate>]
 ```
 
 Options:
