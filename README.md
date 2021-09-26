@@ -47,9 +47,8 @@ Below are the main executable scripts in the repository:
 
 # Running the Code
 
-### Usage and Options
+## Training and Options
  
-Usage: <br />
 ```
   python train_val.py [--gpu=<id>] [--run_info=<task_name + loss function>] [--dataset=<colon/prostate>]
 ```
@@ -77,7 +76,7 @@ Options:
 
 
 ## Inference
-Usage: <br />
+
 ```
   python infer_produce_predict_map_wsi.py [--gpu=<id>] [--run_info=<task_name + loss function>] 
 ```
