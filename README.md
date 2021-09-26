@@ -59,19 +59,19 @@ Options:
 
 | METHOD       | run_info             |  Description |
 | -------------|----------------------| ----------------------|
-| C_CE         | CLASS_ce             | Classification Cross-Entropy loss
-| C_FOCAL      | CLASS_FocalLoss      | Classification Focal Loss, Focal loss for dense object detection [[paper]](https://arxiv.org/abs/1708.02002)
-| R_MAE        | REGRESS_mae          | Regression MAE
-| R_MSE        | REGRESS_mse          | Regression MSE
-| R_SL         | REGRESS_soft_label   | Regression Soft-Label, Deep learning regression for prostate cancer detection and grading in Bi-parametric MRI [[paper]](https://ieeexplore.ieee.org/document/9090311)
-| O_DORN       | REGRESS_rank_dorn    | Ordinal regression, Deep ordinal regression network for monocular depth estimation [[paper]](https://arxiv.org/abs/1806.02446) [[code]](https://github.com/hufu6371/DORN?utm_source=catalyzex.com)
-| O_CORAL      | REGRESS_rank_coral   | Ordinal regression, Rank consistent ordinal regression for neural networks with application to age estimation [[paper]](https://arxiv.org/abs/1901.07884) [[code]](https://github.com/Raschka-research-group/coral-cnn?utm_source=catalyzex.com)
-| O_FOCAL      | REGRESS_FocalOrdinal | Ordinal regression, Joint prostate cancer detection and Gleason score prediction in mp-MRI via FocalNet [[paper]](https://ieeexplore.ieee.org/document/8653866)
-| M_MTMR       | MULTI_mtmr           | Multitask, Multi-task deep model with margin ranking loss for lung nodule analysis [[paper]](https://ieeexplore.ieee.org/document/8794587) [[code]](https://github.com/lihaoliu-cambridge/mtmr-net)
-| M_MAE        | MULTI_ce_mae         | Multitask Class_CE + Regression_MAE 
-| M_MSE        | MULTI_ce_mse         | Multitask Class_CE + Regression_MSE 
-| M_MAE_CEO    | MULTI_ce_mae_ceo     | Multitask Class_CE + Regression_MAE_CEO (Ours)
-| M_MSE_CEO    | MULTI_ce_mae_ceo     | Multitask Class_CE + Regression_MSE_CEO (Ours)
+| C_CE         | CLASS_ce             | Classification: Cross-Entropy loss
+| C_FOCAL      | CLASS_FocalLoss      | Classification: Focal loss, Focal loss for dense object detection [[paper]](https://arxiv.org/abs/1708.02002)
+| R_MAE        | REGRESS_mae          | Regression: MAE loss
+| R_MSE        | REGRESS_mse          | Regression: MSE loss
+| R_SL         | REGRESS_soft_label   | Regression: Soft-Label loss, Deep learning regression for prostate cancer detection and grading in Bi-parametric MRI [[paper]](https://ieeexplore.ieee.org/document/9090311)
+| O_DORN       | REGRESS_rank_dorn    | Ordinal regression: Deep ordinal regression network for monocular depth estimation [[paper]](https://arxiv.org/abs/1806.02446) [[code]](https://github.com/hufu6371/DORN?utm_source=catalyzex.com)
+| O_CORAL      | REGRESS_rank_coral   | Ordinal regression: Rank consistent ordinal regression for neural networks with application to age estimation [[paper]](https://arxiv.org/abs/1901.07884) [[code]](https://github.com/Raschka-research-group/coral-cnn?utm_source=catalyzex.com)
+| O_FOCAL      | REGRESS_FocalOrdinal | Ordinal regression: Joint prostate cancer detection and Gleason score prediction in mp-MRI via FocalNet [[paper]](https://ieeexplore.ieee.org/document/8653866)
+| M_MTMR       | MULTI_mtmr           | Multitask: Multi-task deep model with margin ranking loss for lung nodule analysis [[paper]](https://ieeexplore.ieee.org/document/8794587) [[code]](https://github.com/lihaoliu-cambridge/mtmr-net)
+| M_MAE        | MULTI_ce_mae         | Multitask: Class_CE + Regression_MAE 
+| M_MSE        | MULTI_ce_mse         | Multitask: Class_CE + Regression_MSE 
+| M_MAE_CEO    | MULTI_ce_mae_ceo     | Multitask: Class_CE + Regression_MAE_CEO (Ours)
+| M_MSE_CEO    | MULTI_ce_mae_ceo     | Multitask: Class_CE + Regression_MSE_CEO (Ours)
 
 
 
