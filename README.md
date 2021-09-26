@@ -91,6 +91,7 @@ If any of the above checkpoints are used, please ensure to cite the correspondin
 ## Authors
 
 * [Vuong Thi Le Trinh](https://github.com/timmyvg)
+* [Jin Tae Kwak](https://github.com/JinTaeKwak)
 
 
 ## Citation
