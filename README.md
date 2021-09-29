@@ -5,7 +5,7 @@ and auxiliary ordinal classification for Cancer Grading in Pathology Images uses
 [Link](https://www.sciencedirect.com/science/article/pii/S1361841521002516) to Medical Image Analysis paper. <br />
 
 ![](docs/JCOL.jpg)
-
+## Datasets
 All the models in this project were evaluated on the following datasets:
 
 - [Colon_KSH]() (Colon TMA from Kangbuk Samsung Hospital - Available soon)
