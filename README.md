@@ -17,7 +17,7 @@ All the models in this project were evaluated on the following datasets:
 
 ```
 conda env create -f environment.yml
-conda activate hovernet
+conda activate jco_learning
 pip install torch~=1.8.1+cu111
 ```
 
